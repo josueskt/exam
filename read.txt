@@ -1,0 +1,21 @@
+get pos  put delet 
+http://localhost:8082/a/usuario
+
+{
+    "nombre":"josue",
+  "correo":"josueskt@asdad.cm",
+  "password":"asdadasdasd sin token",
+"especial": {
+        "id": 1
+    }
+}
+
+post 
+http://localhost:8082/roles
+
+{
+    
+  "rol":"josueskt@asdad.cm",
+  "activo":true
+  
+}
